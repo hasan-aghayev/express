@@ -11,6 +11,6 @@ app.get('/test', (req, res) => {
   res.send('Это тестовая страница, созданная в новой ветке!')
 })
 
-app.listen(3000, () => {
+app.listen(8000, () => {
   console.log('Сервер запущен на http://localhost:3000')
 })
